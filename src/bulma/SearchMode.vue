@@ -13,15 +13,15 @@
                             <falt :value="query[1]"
                                 transform="shrink-2"
                                 v-if="query[1]"/>
-                            <fa icon="asterisk" transform="shrink-6 right-10"/>
+                            <fa :icon="faAsterisk" transform="shrink-6 right-10"/>
                         </template>
                         <template v-else-if="modelValue === 'full'">
-                            <fa icon="asterisk" transform="shrink-6 left-10"/>
+                            <fa :icon="faAsterisk" transform="shrink-6 left-10"/>
                             <falt :value="query[0]" transform="shrink-2"/>
-                            <fa icon="asterisk" transform="shrink-6 right-10"/>
+                            <fa :icon="faAsterisk" transform="shrink-6 right-10"/>
                         </template>
                         <template v-else-if="modelValue === 'endsWith'">
-                            <fa icon="asterisk"
+                            <fa :icon="faAsterisk"
                                 :transform="`shrink-6 ${query[1] ? 'left-10' : '' }`"/>
                             <falt :value="query[0]"
                                 :transform="`shrink-2 ${query[1] ? '' : 'right-10' }`"/>
@@ -58,7 +58,7 @@
                                 v-if="query[2]"/>
                         </template>
                         <template v-else-if="modelValue === 'searchProvider'">
-                            <fa :icon="['fab', 'algolia']"/>
+                            <fa :icon="faAlgolia"/>
                         </template>
                     </fal>
                 </a>
@@ -71,12 +71,9 @@
 import {
     FontAwesomeIcon as Fa, FontAwesomeLayersText as Falt, FontAwesomeLayers as Fal,
 } from '@fortawesome/vue-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { faAsterisk } from '@fortawesome/free-solid-svg-icons';
 import { faAlgolia } from '@fortawesome/free-brands-svg-icons';
 import CoreSearchMode from '../renderless/CoreSearchMode.vue';
-
-library.add(faAsterisk, faAlgolia);
 
 export default {
     name: 'SearchMode',
@@ -84,6 +81,11 @@ export default {
     components: {
         CoreSearchMode, Fa, Fal, Falt,
     },
+
+    data: () => ({
+        faAlgolia,
+        faAsterisk,
+    }),
 };
 </script>
 

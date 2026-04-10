@@ -1,12 +1,6 @@
 # Search Mode
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/search-mode.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/search-mode.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/search-mode.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/search-mode.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/search-mode.svg) 
-
-Search Mode
+Search mode component.
 
 ## Usage
 The components can be used outside of the Enso ecosystem.
@@ -43,4 +37,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[MIT](LICENSE)
