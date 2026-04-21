@@ -1,31 +1,31 @@
 {
-  "name": "@enso-ui/search-mode",
-  "version": "3.1.1",
-  "description": "Search Mode",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/enso-ui/search-mode.git"
-  },
-  "keywords": [
-    "search-mode",
-    "vue",
-    "bulma"
-  ],
-  "author": "Adrian Ocneanu <aocneanu@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/enso-ui/search-mode/issues"
-  },
-  "homepage": "https://github.com/enso-ui/search-mode#readme",
-  "peerDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^7.2.0",
-    "@fortawesome/free-brands-svg-icons": "^7.2.0",
-    "@fortawesome/free-solid-svg-icons": "^7.2.0",
-    "@fortawesome/vue-fontawesome": "3.1.3",
-    "vue": "^3.5.0"
-  },
-  "devDependencies": {
-    "vue": "^3.5.0"
-  }
+    "name": "@enso-ui/search-mode",
+    "version": "3.1.1",
+    "description": "Search mode selector for Enso UI tables.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/enso-ui/search-mode.git"
+    },
+    "keywords": [
+        "search-mode",
+        "vue",
+        "bulma"
+    ],
+    "author": "Adrian Ocneanu <aocneanu@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/enso-ui/search-mode/issues"
+    },
+    "homepage": "https://github.com/enso-ui/search-mode#readme",
+    "peerDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^7.2.0",
+        "@fortawesome/free-brands-svg-icons": "^7.2.0",
+        "@fortawesome/free-solid-svg-icons": "^7.2.0",
+        "@fortawesome/vue-fontawesome": "3.1.3",
+        "vue": "^3.5.0"
+    },
+    "devDependencies": {
+        "vue": "^3.5.0"
+    }
 }
