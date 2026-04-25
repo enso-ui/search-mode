@@ -4,7 +4,7 @@
             <span class="icon"
                 :class="$attrs.class"
                 v-if="query">
-                <a class="is-naked"
+                <a class="is-naked has-text-dark"
                     v-on="clickEvents">
                     <fal :key="query">
                         <template v-if="modelValue === 'startsWith'">
